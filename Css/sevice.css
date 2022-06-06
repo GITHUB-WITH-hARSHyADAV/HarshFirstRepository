@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin-left: 100px;
+}
+#alagimg
+{
+    margin-left: 0px;
+}
+header
+{
+   /* border: 2px solid black;  */
+   box-shadow: 0px 2px 10px black ;
+   display: flex;
+   width: 100vw;
+   height: 70px;
+   align-items: center;
+   gap: 45px;
+   position: fixed;
+   background-color: rgb(226, 226, 226);
+   top: 0px;
+   z-index: 10;
+}
+#logo
+{
+    margin-left: 50px;
+}
+#headitem-1
+{
+    margin-left: 1200px;
+}
+.headitem:hover
+{
+   background-color: rgb(128, 128, 128);
+   color: white;
+   padding: 4px;
+}
+a{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.headitem {
+ 
+   padding: 4px;
+}
+main
+{
+    /* border:  2px solid black; */
+  
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 1615px;
+}
+.maindivs
+{
+    /* border:  2px solid black; */
+    display: flex;
+    height: 400px;
+    z-index: 9;
+}
+#main1
+{
+    margin-top: 115px;
+}
+
+.mainitems
+{
+    /* border:  2px solid black; */
+    width: 100%;
+   padding: 20px;
+   font-family: sans-serif;
+   font-size: 22px;
+   line-height: 35px;
+   z-index: 9;
+}
+p
+{
+    margin-top: 30px;
+    text-shadow: 2.5px 2px 6px rgb(119, 119, 119);
+}
+footer
+{
+    background: rgb(163, 203, 255);  
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.foot
+{
+    margin: 10px;
+}
+body
+{
+    background-color:   rgb(230, 230, 230);
+   
+}
+h1{
+    text-shadow: 2.5px 2px 3px rgb(119, 119, 119);
+}
+#servicekey
+{
+    position: absolute;
+    z-index: 1;
+    -webkit-transform:rotate(-90deg);
+    top: 230px;
+    left: 690px;
+    width: 270px;
+}
+#sidebar{
+    visibility: hidden;
+    background: rgb(34, 28, 54);
+    
+    position: fixed;
+    width: 300px;
+    border: 2px solid rgb(43, 43, 43);
+    height: 61.2vmax;
+    right: 0px;
+    text-align: end;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Biryani', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Poppins', sans-serif;
+top: 0px;
+}
+.pro{
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.pro-1{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: 5px 5px 15px rgb(15, 173, 221) ;
+}
+#sidebaricon
+{
+  
+   padding-left: 40px;
+   margin: 0px;
+}
+
+#headitem-5
+{
+    margin: 0px;
+}
