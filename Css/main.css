@@ -51,6 +51,7 @@ em {
     background: rgb(230, 230, 230);
     background-blend-mode: color-burn;
     z-index: 8;
+     display: flex;
 }
 #mainitem-1
 {
